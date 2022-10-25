@@ -2,21 +2,16 @@
   "name": "nodebasic",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node src/scripts/index.js"
+    "start": "nodemon --exec babel-node src/script/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/haryphamdev/node-js-basic-hoidanit.git"
-  },
+  
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/haryphamdev/node-js-basic-hoidanit/issues"
-  },
-  "homepage": "https://github.com/haryphamdev/node-js-basic-hoidanit#readme",
+  
+  
   "dependencies": {
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
